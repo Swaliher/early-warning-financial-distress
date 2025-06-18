@@ -180,7 +180,7 @@ This runs the complete financial distress detection workflow.
 
 I'm an aspiring financial analyst with a strong interest in risk modeling and automation in finance.
 
-📧 swalihfinance@gmail.com  
+📧 swaliher3@gmail.com  
 🌐 GitHub: [Swaliher](https://github.com/Swaliher)  
 📄 Resume: Available on request
 
