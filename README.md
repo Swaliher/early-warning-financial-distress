@@ -88,20 +88,26 @@ All `charts/*.png` display historical Z″ scores with clear risk thresholds.
 
 ---
 
-## 📬 Email Notifications
 
-Set your environment variables in a `.env` file:
+## 📧 Email Configuration (.env)
 
-```env
+Before running the alert pipeline, create a `.env` file using the template below:
+
+```ini
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
 EMAIL_USER=your.email@gmail.com
 EMAIL_PASS=your_app_password
 EMAIL_TO=recipient@example.com
+```
 
-## 🔁 How to Run
+Use an [App Password](https://support.google.com/accounts/answer/185833) if you're using Gmail with 2FA.
 
-### 1️⃣ Clone Repo and Setup
+---
+
+## 🔁 Pipeline Execution Guide
+
+### 1️⃣ Clone the Repository and Setup the Environment
 
 ```bash
 git clone https://github.com/Swaliher/early-warning-financial-distress.git
@@ -109,63 +115,79 @@ cd early-warning-financial-distress
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .\.venv\Scripts\activate
 pip install -r requirements.txt
-2️⃣ Create .env from Template
-bash
-Copy
-Edit
+```
+
+### 2️⃣ Configure Environment Variables
+
+```bash
 cp .env.example .env
-Then update it with your credentials.
+```
 
-3️⃣ Run Full Pipeline
-bash
-Copy
-Edit
+Then, open `.env` and update it with your email credentials.
+
+### 3️⃣ Run the Full Pipeline
+
+```bash
 python scripts/run_all.py
-📈 Technologies Used
-Python 3.11+
+```
 
-yfinance for data ingestion
+This runs the complete financial distress detection workflow.
 
-pandas, numpy for data wrangling
+---
 
-matplotlib for Z-trend charts
+## 🧠 Core Pipeline Modules
 
-openpyxl for Excel styling
+| Script                 | Functionality Description |
+|------------------------|---------------------------|
+| `data_fetcher.py`      | Fetches financial statements from Yahoo Finance |
+| `compute_zscore.py`    | Calculates Altman Z-score for each company |
+| `generate_report.py`   | Generates Excel reports with Z-score outputs |
+| `send_email.py`        | Sends Z-score alert report via email |
+| `run_all.py`           | Orchestrates full pipeline execution |
+| `.env`                 | Stores secure credentials (email/SMTP) |
 
-smtplib + dotenv for secure email delivery
+---
 
-🔥 Why This Project Stands Out
-✅ End-to-end automation (score → visualization → alert → email)
+## 📊 Technologies & Libraries Used
 
-📊 Real data from NSE-listed firms
+- **Python 3.11+**
+- `yfinance`, `requests`: Market data scraping
+- `pandas`, `numpy`: Financial metrics and calculations
+- `matplotlib`: Z-score trend charts
+- `openpyxl`: Report formatting in Excel
+- `smtplib`, `dotenv`: Secure email notifications
 
-⚠️ Detects distress before earnings collapse
+---
 
-📬 Notifies instantly — ideal for analysts or fund managers
+## 🔥 Why This Stands Out
 
-💼 Built by hand: No black-box APIs or pre-trained tools
+- ✅ Fully automated detection and delivery pipeline
+- 📈 Uses **Altman Z-scores** for financial stress identification
+- 📬 Real-time alerts via email — ideal for analysts or risk teams
+- 💡 Transparent, reproducible, and modular implementation
 
-🧪 Production-grade structure and modularity
+---
 
-🤝 Hire Me
-I'm an aspiring financial analyst, deeply passionate about quantitative finance and risk modeling. If this project caught your eye, feel free to connect or reach out!
+## 🏁 Future Enhancements
 
-📧 Email: swalihfinance@gmail.com
+- 🗣 Add earnings call transcript sentiment
+- 📊 Streamlit-based interactive dashboard
+- ⚙️ REST API deployment for fintech integration
 
-🌐 GitHub: Swaliher
+---
 
+## 🤝 About Me
+
+I'm an aspiring financial analyst with a strong interest in risk modeling and automation in finance.
+
+📧 swalihfinance@gmail.com  
+🌐 GitHub: [Swaliher](https://github.com/Swaliher)  
 📄 Resume: Available on request
 
-🏁 Future Enhancements
- Integrate earnings call transcript sentiment
+---
 
- Web dashboard with Dash or Streamlit
+## 📜 License
 
- Sector-specific alert thresholds
+This project is intended for educational and demonstration purposes. If used in research or coursework, please attribute the author.
 
- REST API deployment for live dashboards
-
-💬 License
-This project is for academic and demonstrative use. Please credit the author if reused in research or coursework.
-
-Built with 📊 Finance, 💻 Python, and ❤️ passion for risk intelligence.
+> Built with 📊 Finance, 💻 Python, and ❤️ a passion for risk intelligence.
