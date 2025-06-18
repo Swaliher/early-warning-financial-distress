@@ -1,0 +1,100 @@
+Ticker,Year,Sector,Model,Score,Status
+ASTRAZEN.NS,2021,Healthcare,Altman Z″,,Safe
+ASTRAZEN.NS,2022,Healthcare,Altman Z″,9.76,Safe
+ASTRAZEN.NS,2023,Healthcare,Altman Z″,10.25,Safe
+ASTRAZEN.NS,2024,Healthcare,Altman Z″,11.92,Safe
+ASTRAZEN.NS,2025,Healthcare,Altman Z″,,Safe
+ATUL.NS,2021,Basic Materials,Altman Z″,,Safe
+ATUL.NS,2022,Basic Materials,Altman Z″,12.05,Safe
+ATUL.NS,2023,Basic Materials,Altman Z″,12.56,Safe
+ATUL.NS,2024,Basic Materials,Altman Z″,11.45,Safe
+ATUL.NS,2025,Basic Materials,Altman Z″,,Safe
+BATAINDIA.NS,2021,Consumer Cyclical,Altman Z″,,Safe
+BATAINDIA.NS,2022,Consumer Cyclical,Altman Z″,8.44,Safe
+BATAINDIA.NS,2023,Consumer Cyclical,Altman Z″,7.93,Safe
+BATAINDIA.NS,2024,Consumer Cyclical,Altman Z″,7.89,Safe
+BATAINDIA.NS,2025,Consumer Cyclical,Altman Z″,,Safe
+BAYERCROP.NS,2021,Basic Materials,Altman Z″,,Safe
+BAYERCROP.NS,2022,Basic Materials,Altman Z″,10.45,Safe
+BAYERCROP.NS,2023,Basic Materials,Altman Z″,10.64,Safe
+BAYERCROP.NS,2024,Basic Materials,Altman Z″,11.3,Safe
+BAYERCROP.NS,2025,Basic Materials,Altman Z″,,Safe
+BLUEDART.NS,2021,Industrials,Altman Z″,,Safe
+BLUEDART.NS,2022,Industrials,Altman Z″,5.55,Safe
+BLUEDART.NS,2023,Industrials,Altman Z″,6.01,Safe
+BLUEDART.NS,2024,Industrials,Altman Z″,5.63,Safe
+BLUEDART.NS,2025,Industrials,Altman Z″,,Safe
+CARBORUNIV.NS,2021,Industrials,Altman Z″,,Safe
+CARBORUNIV.NS,2022,Industrials,Altman Z″,10.37,Safe
+CARBORUNIV.NS,2023,Industrials,Altman Z″,11.09,Safe
+CARBORUNIV.NS,2024,Industrials,Altman Z″,12.22,Safe
+CARBORUNIV.NS,2025,Industrials,Altman Z″,,Safe
+CCL.NS,2021,Consumer Defensive,Altman Z″,,Safe
+CCL.NS,2022,Consumer Defensive,Altman Z″,8.25,Safe
+CCL.NS,2023,Consumer Defensive,Altman Z″,7.95,Safe
+CCL.NS,2024,Consumer Defensive,Altman Z″,6.9,Safe
+CCL.NS,2025,Consumer Defensive,Altman Z″,,Safe
+CEATLTD.NS,2021,Consumer Cyclical,Altman Z″,,Safe
+CEATLTD.NS,2022,Consumer Cyclical,Altman Z″,4.2,Safe
+CEATLTD.NS,2023,Consumer Cyclical,Altman Z″,4.08,Safe
+CEATLTD.NS,2024,Consumer Cyclical,Altman Z″,4.72,Safe
+CEATLTD.NS,2025,Consumer Cyclical,Altman Z″,,Safe
+CERA.NS,2021,Industrials,Altman Z″,9.04,Safe
+CERA.NS,2022,Industrials,Altman Z″,10.17,Safe
+CERA.NS,2023,Industrials,Altman Z″,11.39,Safe
+CERA.NS,2024,Industrials,Altman Z″,12.2,Safe
+CESC.NS,2021,Utilities,Altman Z″,,Safe
+CESC.NS,2022,Utilities,Altman Z″,5.25,Safe
+CESC.NS,2023,Utilities,Altman Z″,5.08,Safe
+CESC.NS,2024,Utilities,Altman Z″,5.31,Safe
+CESC.NS,2025,Utilities,Altman Z″,,Safe
+CYIENT.NS,2021,Industrials,Altman Z″,,Safe
+CYIENT.NS,2022,Industrials,Altman Z″,10.0,Safe
+CYIENT.NS,2023,Industrials,Altman Z″,7.64,Safe
+CYIENT.NS,2024,Industrials,Altman Z″,9.31,Safe
+CYIENT.NS,2025,Industrials,Altman Z″,,Safe
+DEEPAKFERT.NS,2021,Basic Materials,Altman Z″,,Safe
+DEEPAKFERT.NS,2022,Basic Materials,Altman Z″,6.6,Safe
+DEEPAKFERT.NS,2023,Basic Materials,Altman Z″,7.26,Safe
+DEEPAKFERT.NS,2024,Basic Materials,Altman Z″,6.47,Safe
+DEEPAKFERT.NS,2025,Basic Materials,Altman Z″,,Safe
+EIDPARRY.NS,2021,Basic Materials,Altman Z″,,Safe
+EIDPARRY.NS,2022,Basic Materials,Altman Z″,7.26,Safe
+EIDPARRY.NS,2023,Basic Materials,Altman Z″,7.31,Safe
+EIDPARRY.NS,2024,Basic Materials,Altman Z″,7.53,Safe
+EIDPARRY.NS,2025,Basic Materials,Altman Z″,,Safe
+EIHOTEL.NS,2021,Consumer Cyclical,Altman Z″,,Safe
+EIHOTEL.NS,2022,Consumer Cyclical,Altman Z″,6.6,Safe
+EIHOTEL.NS,2023,Consumer Cyclical,Altman Z″,8.8,Safe
+EIHOTEL.NS,2024,Consumer Cyclical,Altman Z″,10.73,Safe
+EIHOTEL.NS,2025,Consumer Cyclical,Altman Z″,,Safe
+ELGIEQUIP.NS,2021,Industrials,Altman Z″,,Safe
+ELGIEQUIP.NS,2022,Industrials,Altman Z″,8.46,Safe
+ELGIEQUIP.NS,2023,Industrials,Altman Z″,9.54,Safe
+ELGIEQUIP.NS,2024,Industrials,Altman Z″,9.74,Safe
+ELGIEQUIP.NS,2025,Industrials,Altman Z″,,Safe
+FINCABLES.NS,2021,Industrials,Altman Z″,,Safe
+FINCABLES.NS,2022,Industrials,Altman Z″,17.56,Safe
+FINCABLES.NS,2023,Industrials,Altman Z″,17.79,Safe
+FINCABLES.NS,2024,Industrials,Altman Z″,17.93,Safe
+FINCABLES.NS,2025,Industrials,Altman Z″,,Safe
+GRAPHITE.NS,2021,Industrials,Altman Z″,,Safe
+GRAPHITE.NS,2022,Industrials,Altman Z″,12.93,Safe
+GRAPHITE.NS,2023,Industrials,Altman Z″,11.8,Safe
+GRAPHITE.NS,2024,Industrials,Altman Z″,14.71,Safe
+GRAPHITE.NS,2025,Industrials,Altman Z″,,Safe
+HAPPSTMNDS.NS,2021,Technology,Piotroski F‑Score,1.0,Weak
+HAPPSTMNDS.NS,2022,Technology,Piotroski F‑Score,1.0,Weak
+HAPPSTMNDS.NS,2023,Technology,Piotroski F‑Score,1.0,Weak
+HAPPSTMNDS.NS,2024,Technology,Piotroski F‑Score,1.0,Weak
+HAPPSTMNDS.NS,2025,Technology,Piotroski F‑Score,1.0,Weak
+MGL.NS,2021,Utilities,Altman Z″,,Safe
+MGL.NS,2022,Utilities,Altman Z″,9.3,Safe
+MGL.NS,2023,Utilities,Altman Z″,9.27,Safe
+MGL.NS,2024,Utilities,Altman Z″,9.55,Safe
+MGL.NS,2025,Utilities,Altman Z″,,Safe
+SKFINDIA.NS,2021,Industrials,Altman Z″,,Safe
+SKFINDIA.NS,2022,Industrials,Altman Z″,12.46,Safe
+SKFINDIA.NS,2023,Industrials,Altman Z″,13.21,Safe
+SKFINDIA.NS,2024,Industrials,Altman Z″,12.87,Safe
+SKFINDIA.NS,2025,Industrials,Altman Z″,,Safe
