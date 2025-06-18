@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Data outputs
+*.xlsx
+*.csv
+charts/
+data/
+
+# Environment folders and secrets
+.venv/
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
