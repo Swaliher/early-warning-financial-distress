@@ -53,23 +53,24 @@ Metrics include:
 
 ---
 
-## 📦 Folder Structure
+## 📁 Project Structure
+
+```
 early-warning-financial-distress/
-├── scripts/ # All functional scripts
-│ ├── compute_scores.py # Core model logic
-│ ├── generate_plots.py # Z″ visualizations
-│ ├── alert_generator.py # Alert generation
-│ ├── emailer.py # Secure email alerts
-│ └── run_all.py # Full automated pipeline
-├── charts/ # Generated Z-trend plots (auto)
-├── data/ # Output CSVs and Excel reports
-├── .env.example # Dummy credentials (no secrets)
-├── .gitignore # Avoids committing sensitive or large files
-├── requirements.txt # Python package dependencies
-├── README.md # Project documentation
+├── scripts/                    # All functional scripts
+│   ├── compute_scores.py       # Core model logic (Z″ + F-Score)
+│   ├── generate_plots.py       # Z″ visualizations with thresholds
+│   ├── alert_generator.py      # Detects and logs downgrades
+│   ├── emailer.py              # Sends alerts via email securely
+│   └── run_all.py              # Full end-to-end execution pipeline
+├── charts/                     # Generated Z-trend plots (auto-saved)
+├── data/                       # Output CSVs and Excel reports
+├── .env.example                # Sample env file (no real credentials)
+├── .gitignore                  # Ignores sensitive and bulky files
+├── requirements.txt            # Python package dependencies
+├── README.md                   # This project documentation
+```
 
-
----
 
 ## 📊 Sample Output
 
@@ -98,15 +99,15 @@ EMAIL_USER=your.email@gmail.com
 EMAIL_PASS=your_app_password
 EMAIL_TO=recipient@example.com
 
-🔁 How to Run
-1️⃣ Clone Repo and Setup
-bash
-Copy
-Edit
+## 🔁 How to Run
+
+### 1️⃣ Clone Repo and Setup
+
+```bash
 git clone https://github.com/Swaliher/early-warning-financial-distress.git
 cd early-warning-financial-distress
 python -m venv .venv
-source .venv/bin/activate  # or .\.venv\Scripts\activate on Windows
+source .venv/bin/activate  # On Windows: .\.venv\Scripts\activate
 pip install -r requirements.txt
 2️⃣ Create .env from Template
 bash
