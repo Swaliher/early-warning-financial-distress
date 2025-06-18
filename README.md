@@ -54,4 +54,117 @@ Metrics include:
 ---
 
 ## 📦 Folder Structure
+early-warning-financial-distress/
+├── scripts/ # All functional scripts
+│ ├── compute_scores.py # Core model logic
+│ ├── generate_plots.py # Z″ visualizations
+│ ├── alert_generator.py # Alert generation
+│ ├── emailer.py # Secure email alerts
+│ └── run_all.py # Full automated pipeline
+├── charts/ # Generated Z-trend plots (auto)
+├── data/ # Output CSVs and Excel reports
+├── .env.example # Dummy credentials (no secrets)
+├── .gitignore # Avoids committing sensitive or large files
+├── requirements.txt # Python package dependencies
+├── README.md # Project documentation
 
+
+---
+
+## 📊 Sample Output
+
+**Summary Table**
+
+| Sector              | Model              | Safe | Distress | Weak |
+|---------------------|--------------------|------|----------|------|
+| Industrials         | Altman Z″          | ✅ 39 | ❌  0     | -    |
+| Technology          | Piotroski F‑Score  | -    | -        | ❗ 5  |
+| Basic Materials     | Altman Z″          | ✅ 20 | ❌  0     | -    |
+
+**Visual Output**
+
+All `charts/*.png` display historical Z″ scores with clear risk thresholds.
+
+---
+
+## 📬 Email Notifications
+
+Set your environment variables in a `.env` file:
+
+```env
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USER=your.email@gmail.com
+EMAIL_PASS=your_app_password
+EMAIL_TO=recipient@example.com
+
+🔁 How to Run
+1️⃣ Clone Repo and Setup
+bash
+Copy
+Edit
+git clone https://github.com/Swaliher/early-warning-financial-distress.git
+cd early-warning-financial-distress
+python -m venv .venv
+source .venv/bin/activate  # or .\.venv\Scripts\activate on Windows
+pip install -r requirements.txt
+2️⃣ Create .env from Template
+bash
+Copy
+Edit
+cp .env.example .env
+Then update it with your credentials.
+
+3️⃣ Run Full Pipeline
+bash
+Copy
+Edit
+python scripts/run_all.py
+📈 Technologies Used
+Python 3.11+
+
+yfinance for data ingestion
+
+pandas, numpy for data wrangling
+
+matplotlib for Z-trend charts
+
+openpyxl for Excel styling
+
+smtplib + dotenv for secure email delivery
+
+🔥 Why This Project Stands Out
+✅ End-to-end automation (score → visualization → alert → email)
+
+📊 Real data from NSE-listed firms
+
+⚠️ Detects distress before earnings collapse
+
+📬 Notifies instantly — ideal for analysts or fund managers
+
+💼 Built by hand: No black-box APIs or pre-trained tools
+
+🧪 Production-grade structure and modularity
+
+🤝 Hire Me
+I'm an aspiring financial analyst, deeply passionate about quantitative finance and risk modeling. If this project caught your eye, feel free to connect or reach out!
+
+📧 Email: swalihfinance@gmail.com
+
+🌐 GitHub: Swaliher
+
+📄 Resume: Available on request
+
+🏁 Future Enhancements
+ Integrate earnings call transcript sentiment
+
+ Web dashboard with Dash or Streamlit
+
+ Sector-specific alert thresholds
+
+ REST API deployment for live dashboards
+
+💬 License
+This project is for academic and demonstrative use. Please credit the author if reused in research or coursework.
+
+Built with 📊 Finance, 💻 Python, and ❤️ passion for risk intelligence.
